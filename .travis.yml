@@ -1,0 +1,7 @@
+language: bash
+
+before_script:
+    - echo "Installing quagga on Ubuntu"
+
+script:
+    - bash quagga-setup.sh
