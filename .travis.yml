@@ -1,5 +1,7 @@
 language: bash
 
+https://travis-ci.org/mustafaalam958/Mustafa.svg?branch=master
+
 before_script:
     - echo "Installing quagga on Ubuntu"
 
