@@ -1,9 +1,12 @@
 language: bash
 
-https://travis-ci.org/mustafaalam958/Mustafa.svg?branch=master
-
 before_script:
     - echo "Installing quagga on Ubuntu"
 
 script:
     - bash quagga-setup.sh
+
+os: linux
+group: stable
+dist: trusty
+sudo: required
